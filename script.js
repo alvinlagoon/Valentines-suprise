@@ -45,8 +45,6 @@ function goToPage(){
         }
         alert("Sorry, you've used all attempts.");
         window.location.href = "no.html"; // Redirect after exceeding attempts
-    } else {
-        window.location.href = "index.html";
     }
 }
 
